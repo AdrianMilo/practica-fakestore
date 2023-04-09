@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card/Card";
+import Nav from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav name='Rolling Code'/>
+      <div className="mt-3 d-flex justify-content-center gap-3">
+        <Card
+          title='Card 1'
+          description='Esta es una descripcion'
+          image='https://picsum.photos/id/232/200/300'
+          buttonLabel='Ir a otro lugar'/>
+        <Card
+          title='Card 2'
+          description='Descripcion 2'
+          image='https://picsum.photos/id/236/200/300'
+          buttonLabel='Ir a otro lugar'/>
+      </div>
+    </>
+
   );
 }
 
 export default App;
+
+//pa evitar el div se puede retornar un fragmente: etiqueta vacía <></>

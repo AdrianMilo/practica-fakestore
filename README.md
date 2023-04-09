@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+a- Cuando un archivo está en verde es que se acaba de crear.
+b- Cuando un archivo está en gris es que no se subirá a git. Por ejemplo node_modules.
+c- para descargar node_modules: npm install.
+d- en package json vemos  el nombre de la carpeta, librerías y accesorios para tener más alcance a la aplicación. Start para levantar el archivo a la aplicación. Un build que genera un archivo html, css js. Para producción, para desplegar.
+e- libreria: mui.com
+f- en gitignore va lo q no quiero que se suba al git.
